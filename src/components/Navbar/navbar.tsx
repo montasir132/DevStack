@@ -4,7 +4,7 @@ import { FaBars } from "react-icons/fa";
 function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-white">
-      <nav className="mx-auto max-w-7xl px-4 py-4">
+      <nav className="mx-auto px-4 py-4">
         <div className="flex items-center justify-between md:hidden">
           <button
             className="text-xl text-[#475569]"
@@ -15,14 +15,14 @@ function Navbar() {
             <img
               src={Logo}
               alt="Dev Stack"
-              className="h-8"
+              className="ml-6 h-7 w-28"
             />
           </div>
           <div className="flex items-center gap-2">
             <button className="text-sm text-[#475569]">
               Sign In
             </button>
-            <button className="rounded-full bg-[#D91B7E] px-3 py-1.5 text-sm text-white">
+            <button className="rounded-full bg-[#D91B7E] px-2 py-1 text-sm text-white">
               Sign Up
             </button>
           </div>
