@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar/>
+      <Banner/>
 
       <ToastContainer position="bottom-right" autoClose={2000} />
     </div>
