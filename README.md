@@ -48,7 +48,7 @@ Ans: In React terminology, when data is passed into or received from an array or
 ---
 
 ## 📌 Example Screenshot
-*'./DevStack assect/ui/webss.png'*
+![Example Screenshot](<./DevStack asset/ui/webss.png>)
 
 ---
 
