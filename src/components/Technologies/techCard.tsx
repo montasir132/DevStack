@@ -6,9 +6,9 @@ interface ITechCard{
 }
 const TechCard = ({ tech, isInStack, onAdd }:ITechCard) => {
   return (
-    <div className="flex flex-col rounded-2xl border border-[#F1F5F9] p-5 shadow-sm">
+    <div className="flex flex-col rounded-2xl border border-[#F1F5F9] p-5 ">
       <div className="flex items-start justify-between">
-        <img src={tech.logo} alt={tech.name} className="h-9 w-9 object-contain" />
+        <img src={tech.logo} alt={tech.name} className="h-10 w-10" />
         {tech.badge && (
           <span className="badge border-0 bg-[#FFEDD5] text-xs font-semibold text-[#EA580C]">
             {tech.badge}
@@ -16,9 +16,7 @@ const TechCard = ({ tech, isInStack, onAdd }:ITechCard) => {
         )}
       </div>
       <h3 className="mt-3 text-lg font-bold text-[#0F172A]">{tech.name}</h3>
-        <p className="mt-1 flex-1 text-sm leading-relaxed text-[#64748B]">
-        {tech.description}
-      </p>
+      <p className="mt-1 flex-1 text-sm leading-relaxed text-[#64748B]">{tech.description}</p>
       <div className="mt-4 flex items-center justify-between gap-2 text-xs">
         <span className="badge badge-sm border-[#E5E7EB] font-medium text-[#64748B]">
           {tech.category}
