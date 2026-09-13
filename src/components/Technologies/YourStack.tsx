@@ -5,23 +5,19 @@ interface IYourStack {
   onRemove: (id: string) => void;
   onRemoveAll: () => void;
 }
-const YourStack = ({
-  stack,
-  onRemove,
-  onRemoveAll,
-}: IYourStack) => {
+const YourStack = ({stack, onRemove, onRemoveAll}: IYourStack) => {
   // console.log(stack,onRemove,onRemoveAll,"from Stack"); 
 
 if(stack.length === 0 ){
     return (
-        <aside className="h-fit rounded-2xl border border-gray-100 bg-gray-50 p-5 lg:sticky lg:top-24">
-          <h3 className="text-xl font-bold text-slate-900">Your Stack</h3>
-          <p className="mt-1 text-sm text-slate-500">
+        <aside className="h-auto rounded-2xl border border-[#F1F5F9] p-5 lg:sticky lg:top-24">
+          <h3 className="text-2xl font-bold text-[#0F172A]">Your Stack</h3>
+          <p className="mt-1 text-sm text-[#94A3B8]">
             {stack.length} Technology Selected
           </p>
           <div className="mt-4">
             <p className="text-sm text-slate-500">No technologies selected yet.</p>
-            <div className="mt-4 rounded-xl border-2 border-dashed border-gray-200 bg-white py-10 text-center text-sm text-slate-400">
+            <div className="mt-4 rounded-xl border-2 border-dashed border-[#E2E8F0] py-10 text-center text-sm text-[#94A3B8]">
               Your stack is empty.
             </div>
           </div>
@@ -29,9 +25,9 @@ if(stack.length === 0 ){
     )
 } 
   return (
-    <aside className="h-fit rounded-2xl border border-gray-100 bg-gray-50 p-5 lg:sticky lg:top-24">
-      <h3 className="text-xl font-bold text-slate-900">Your Stack</h3>
-      <p className="mt-1 text-sm text-slate-500">
+    <aside className="h-fit rounded-2xl border border-{#E2E8F0} p-5 lg:sticky lg:top-24">
+      <h3 className="text-xl font-bold text-[#0F172A]">Your Stack</h3>
+      <p className="mt-1 text-sm text-[#94A3B8]">
         {stack.length} Technology Selected
       </p>
       <div className="mt-4">
@@ -40,15 +36,15 @@ if(stack.length === 0 ){
             return (
               <li
                 key={index}
-                className="flex items-center gap-3 rounded-xl border border-gray-100 bg-white p-3"
+                className="flex items-center gap-3 rounded-xl border border-[#E2E8F0] p-3"
               >
                 <img src={tech.logo} alt={tech.name} className="h-8 w-8 object-contain" />
                 <div className="flex-1">
-                  <p className="text-sm font-semibold text-slate-900">{tech.name}</p>
-                  <p className="text-xs text-slate-500">{tech.category}</p>
+                  <p className="text-sm font-semibold text-[#0F172A]">{tech.name}</p>
+                  <p className="text-xs text-[#94A3B8]">{tech.category}</p>
                 </div>
                 <span
-                  className="px-1 text-lg text-slate-400 cursor-pointer hover:text-slate-700"
+                  className="px-1 text-lg text-[#94A3B8] cursor-pointer hover:text-[#3a4357]"
                   onClick={() => onRemove(tech.id)}
                 >
                   ✕
@@ -59,7 +55,7 @@ if(stack.length === 0 ){
         </ul>
         <button
           onClick={() => onRemoveAll()}
-          className="btn mt-4 w-full rounded-lg border-red-200 bg-white text-red-500 hover:bg-red-50"
+          className="btn mt-4 w-full rounded-lg border-[#ED8C85] text-[#D82C20] hover:text-white hover:bg-[#D82C20]"
         >
           Remove All
         </button>

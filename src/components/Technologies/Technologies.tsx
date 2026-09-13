@@ -33,15 +33,15 @@ const Technologies = ({technologiesPromise} : ITechnologiesProps) => {
     }
 
     return (
-        <section id="technologies" className="mx-auto max-w-7xl px-4 pb-20">
-            <h2 className=" text-2xl lg:text-4xl font-extrabold text-[#0F172A]">
+        <section id="technologies" className="pb-20">
+            <h2 className="font-inter text-2xl lg:text-4xl font-extrabold text-center lg:text-left text-[#0F172A]">
                 Explore the <span className="bg-linear-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">Technologies</span>
             </h2>
-            <p className="mt-2 text-slate-600">
+            <p className="mt-1 lg:mt-2 text-center lg:text-left text-slate-600">
                 Pick one technology per category to build your ideal stack.
             </p>
 
-            <div className="mt-10 grid grid-cols-1 gap-8 lg:grid-cols-4">
+            <div className="mt-5 lg:mt-10 grid grid-cols-1 gap-8 lg:grid-cols-4">
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-3 xl:grid-cols-3">
                     {
                         technologies.map((tech:ITechnology) => {
