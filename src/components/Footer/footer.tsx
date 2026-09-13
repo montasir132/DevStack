@@ -3,17 +3,20 @@ import Logo from "../../assets/logo-text.png";
 function Footer() {
   return (
     <footer className="border-t border-[#F1F5F9]">
-      <div className="mx-auto max-w-7xl px-4 py-14">
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr]">
+      <div className="mx-auto max-w-7xl px-4 py-10 md:py-14">
+        {/* Main Footer */}
+        <div className="grid gap-10 text-center md:grid-cols-2 md:text-left lg:grid-cols-[2fr_1fr_1fr_1fr]">
+          
           {/* Brand */}
-          <div>
-            <img src={Logo} alt="Dev" />
+          <div className="flex flex-col items-center md:items-start">
+            <img src={Logo} alt="Dev Stack" />
 
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-[#475569]">
               Curated tools, technologies, and resources for developers
               building modern software.
             </p>
 
+            {/* Social Links */}
             <div className="mt-5 flex gap-5 text-sm font-medium text-[#0F172A]">
               <a
                 href="https://github.com"
@@ -42,7 +45,7 @@ function Footer() {
           </div>
 
           {/* Product */}
-          <div>
+          <div className="hidden md:block">
             <h4 className="text-xs font-bold uppercase tracking-wider text-[#0F172A]">
               Product
             </h4>
@@ -51,11 +54,9 @@ function Footer() {
               <li>
                 <a href="#">Home</a>
               </li>
-
               <li>
                 <a href="#">Technologies</a>
               </li>
-
               <li>
                 <a href="#">Projects</a>
               </li>
@@ -63,7 +64,7 @@ function Footer() {
           </div>
 
           {/* Company */}
-          <div>
+          <div className="hidden md:block">
             <h4 className="text-xs font-bold uppercase tracking-wider text-[#0F172A]">
               Company
             </h4>
@@ -72,11 +73,9 @@ function Footer() {
               <li>
                 <a href="#">About</a>
               </li>
-
               <li>
                 <a href="#">Contact</a>
               </li>
-
               <li>
                 <a href="#">Careers</a>
               </li>
@@ -84,7 +83,7 @@ function Footer() {
           </div>
 
           {/* Legal */}
-          <div>
+          <div className="hidden md:block">
             <h4 className="text-xs font-bold uppercase tracking-wider text-[#0F172A]">
               Legal
             </h4>
@@ -93,7 +92,6 @@ function Footer() {
               <li>
                 <a href="#">Privacy Policy</a>
               </li>
-
               <li>
                 <a href="#">Terms of Service</a>
               </li>
@@ -102,10 +100,10 @@ function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-[#F1F5F9] pt-6 text-sm text-[#94A3B8] sm:flex-row">
+        <div className="mt-10 flex items-center justify-between border-t border-[#F1F5F9] pt-5 text-xs text-[#94A3B8] md:mt-12 md:text-sm">
           <p>© 2026 Dev Stack. All rights reserved.</p>
 
-          <div className="flex gap-5 text-[#94A3B8]">
+          <div className="flex gap-4 md:gap-5">
             <a href="#">Privacy</a>
             <a href="#">Terms</a>
           </div>
@@ -116,4 +114,3 @@ function Footer() {
 }
 
 export default Footer;
-
