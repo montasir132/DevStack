@@ -1,0 +1,512 @@
+[
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "badge": "Popular",
+    "category": "Language",
+    "level": "Beginner-Friendly",
+    "rating": "4.8",
+    "description": "A high-level programming language that powers interactive web applications and full-stack development."
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    "badge": "Standard",
+    "category": "Language",
+    "level": "Intermediate",
+    "rating": "4.9",
+    "description": "A strongly typed programming language that builds on JavaScript and provides better tooling for large applications."
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    "badge": "Popular",
+    "category": "Language",
+    "level": "Beginner-Friendly",
+    "rating": "4.9",
+    "description": "A versatile programming language widely used for web development, automation, data science, and artificial intelligence."
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    "badge": "Enterprise",
+    "category": "Language",
+    "level": "Intermediate",
+    "rating": "4.7",
+    "description": "A class-based programming language widely used for enterprise software, backend systems, and Android development."
+  },
+  {
+    "id": "cpp",
+    "name": "C++",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+    "badge": "Powerful",
+    "category": "Language",
+    "level": "Advanced",
+    "rating": "4.8",
+    "description": "A high-performance programming language commonly used for systems programming, games, and competitive programming."
+  },
+  {
+    "id": "c",
+    "name": "C",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+    "badge": "Classic",
+    "category": "Language",
+    "level": "Intermediate",
+    "rating": "4.7",
+    "description": "A foundational systems programming language known for performance, portability, and low-level memory control."
+  },
+  {
+    "id": "go",
+    "name": "Go",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+    "badge": "Fast",
+    "category": "Language",
+    "level": "Intermediate",
+    "rating": "4.8",
+    "description": "A statically typed language designed by Google for efficient, concurrent, and scalable software development."
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg",
+    "badge": "Modern",
+    "category": "Language",
+    "level": "Advanced",
+    "rating": "4.8",
+    "description": "A systems programming language focused on memory safety, performance, and reliable concurrent applications."
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "badge": "Popular",
+    "category": "Frontend",
+    "level": "Beginner-Friendly",
+    "rating": "4.9",
+    "description": "A component-based JavaScript library for building interactive and reusable user interfaces."
+  },
+  {
+    "id": "vue",
+    "name": "Vue.js",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+    "badge": "Versatile",
+    "category": "Frontend",
+    "level": "Beginner-Friendly",
+    "rating": "4.8",
+    "description": "An approachable progressive framework for building user interfaces and single-page applications."
+  },
+  {
+    "id": "angular",
+    "name": "Angular",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+    "badge": "Enterprise",
+    "category": "Frontend",
+    "level": "Advanced",
+    "rating": "4.6",
+    "description": "A full-featured web framework for building scalable applications using TypeScript and component-based architecture."
+  },
+  {
+    "id": "svelte",
+    "name": "Svelte",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
+    "badge": "Fast",
+    "category": "Frontend",
+    "level": "Intermediate",
+    "rating": "4.8",
+    "description": "A modern frontend framework that shifts much of the work from the browser to the build step."
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    "badge": "Popular",
+    "category": "Frontend",
+    "level": "Intermediate",
+    "rating": "4.9",
+    "description": "A React framework for building full-stack web applications with routing, rendering, and server-side capabilities."
+  },
+  {
+    "id": "nuxt",
+    "name": "Nuxt",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg",
+    "badge": "Full Stack",
+    "category": "Frontend",
+    "level": "Intermediate",
+    "rating": "4.7",
+    "description": "A full-stack framework built on Vue for creating performant and production-ready web applications."
+  },
+  {
+    "id": "html5",
+    "name": "HTML5",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    "badge": "Essential",
+    "category": "Frontend",
+    "level": "Beginner-Friendly",
+    "rating": "4.9",
+    "description": "The standard markup language used to structure content and elements on modern websites."
+  },
+  {
+    "id": "css3",
+    "name": "CSS3",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    "badge": "Essential",
+    "category": "Styling",
+    "level": "Beginner-Friendly",
+    "rating": "4.9",
+    "description": "A stylesheet language used to control the layout, appearance, animations, and responsive behavior of websites."
+  },
+  {
+    "id": "tailwind",
+    "name": "Tailwind CSS",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+    "badge": "Fast",
+    "category": "Styling",
+    "level": "Beginner-Friendly",
+    "rating": "4.9",
+    "description": "A utility-first CSS framework that provides low-level classes for rapidly building custom interfaces."
+  },
+  {
+    "id": "bootstrap",
+    "name": "Bootstrap",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+    "badge": "Popular",
+    "category": "Styling",
+    "level": "Beginner-Friendly",
+    "rating": "4.7",
+    "description": "A popular frontend toolkit containing responsive layouts, components, and utilities for web development."
+  },
+  {
+    "id": "sass",
+    "name": "Sass",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+    "badge": "Powerful",
+    "category": "Styling",
+    "level": "Intermediate",
+    "rating": "4.7",
+    "description": "A CSS preprocessor that adds variables, nesting, mixins, and other features to make stylesheets easier to maintain."
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    "badge": "Standard",
+    "category": "Backend",
+    "level": "Intermediate",
+    "rating": "4.8",
+    "description": "A JavaScript runtime built on Chrome's V8 engine for creating scalable server-side applications."
+  },
+  {
+    "id": "express",
+    "name": "Express.js",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    "badge": "Popular",
+    "category": "Backend",
+    "level": "Intermediate",
+    "rating": "4.8",
+    "description": "A lightweight Node.js web framework for building APIs, backend services, and server-side applications."
+  },
+  {
+    "id": "nestjs",
+    "name": "NestJS",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg",
+    "badge": "Structured",
+    "category": "Backend",
+    "level": "Advanced",
+    "rating": "4.7",
+    "description": "A TypeScript-based Node.js framework designed for building scalable and maintainable server-side applications."
+  },
+  {
+    "id": "django",
+    "name": "Django",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
+    "badge": "Popular",
+    "category": "Backend",
+    "level": "Intermediate",
+    "rating": "4.8",
+    "description": "A high-level Python web framework that encourages rapid development and clean application architecture."
+  },
+  {
+    "id": "fastapi",
+    "name": "FastAPI",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
+    "badge": "Fast",
+    "category": "Backend",
+    "level": "Intermediate",
+    "rating": "4.8",
+    "description": "A modern Python framework for building fast APIs using type hints and automatic interactive documentation."
+  },
+  {
+    "id": "graphql",
+    "name": "GraphQL",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+    "badge": "Popular API",
+    "category": "Backend",
+    "level": "Intermediate",
+    "rating": "4.7",
+    "description": "A query language and runtime that allows clients to request exactly the data they need from an API."
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    "badge": "Popular",
+    "category": "Database",
+    "level": "Beginner-Friendly",
+    "rating": "4.7",
+    "description": "A document-oriented NoSQL database designed for flexible data models, scalability, and modern applications."
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+    "badge": "Top SQL",
+    "category": "Database",
+    "level": "Intermediate",
+    "rating": "4.9",
+    "description": "A powerful open-source relational database known for reliability, advanced SQL features, and extensibility."
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+    "badge": "Popular",
+    "category": "Database",
+    "level": "Beginner-Friendly",
+    "rating": "4.8",
+    "description": "A widely used open-source relational database management system for storing and querying structured data."
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+    "badge": "Fast",
+    "category": "Database",
+    "level": "Intermediate",
+    "rating": "4.8",
+    "description": "An in-memory data store commonly used for caching, sessions, queues, and high-speed application data."
+  },
+  {
+    "id": "sqlite",
+    "name": "SQLite",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg",
+    "badge": "Lightweight",
+    "category": "Database",
+    "level": "Beginner-Friendly",
+    "rating": "4.7",
+    "description": "A lightweight embedded relational database that stores an entire database in a single file."
+  },
+  {
+    "id": "prisma",
+    "name": "Prisma",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg",
+    "badge": "Modern ORM",
+    "category": "Database",
+    "level": "Intermediate",
+    "rating": "4.8",
+    "description": "A modern TypeScript ORM that provides type-safe database access, migrations, and developer-friendly tooling."
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+    "badge": "Containers",
+    "category": "DevOps",
+    "level": "Intermediate",
+    "rating": "4.8",
+    "description": "A platform for packaging applications and their dependencies into portable containers."
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg",
+    "badge": "Advanced",
+    "category": "DevOps",
+    "level": "Advanced",
+    "rating": "4.8",
+    "description": "An open-source platform for automating deployment, scaling, and management of containerized applications."
+  },
+  {
+    "id": "jenkins",
+    "name": "Jenkins",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
+    "badge": "CI/CD",
+    "category": "DevOps",
+    "level": "Intermediate",
+    "rating": "4.6",
+    "description": "An open-source automation server used to build, test, deploy, and automate software delivery pipelines."
+  },
+  {
+    "id": "github-actions",
+    "name": "GitHub Actions",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg",
+    "badge": "Automation",
+    "category": "DevOps",
+    "level": "Intermediate",
+    "rating": "4.8",
+    "description": "A CI/CD platform that automates software workflows directly inside GitHub repositories."
+  },
+  {
+    "id": "aws",
+    "name": "AWS",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+    "badge": "Cloud",
+    "category": "DevOps",
+    "level": "Advanced",
+    "rating": "4.9",
+    "description": "A comprehensive cloud computing platform providing infrastructure, storage, databases, networking, and application services."
+  },
+  {
+    "id": "azure",
+    "name": "Microsoft Azure",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
+    "badge": "Cloud",
+    "category": "DevOps",
+    "level": "Advanced",
+    "rating": "4.7",
+    "description": "Microsoft's cloud platform offering computing, storage, databases, networking, analytics, and developer services."
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+    "badge": "Essential",
+    "category": "Tools",
+    "level": "Beginner-Friendly",
+    "rating": "4.9",
+    "description": "A distributed version control system used to track code changes and collaborate on software projects."
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    "badge": "Popular",
+    "category": "Tools",
+    "level": "Beginner-Friendly",
+    "rating": "4.9",
+    "description": "A developer platform for hosting Git repositories, collaborating on code, and managing software projects."
+  },
+  {
+    "id": "vscode",
+    "name": "VS Code",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+    "badge": "Popular",
+    "category": "Tools",
+    "level": "Beginner-Friendly",
+    "rating": "4.9",
+    "description": "A lightweight and extensible code editor with powerful debugging, Git integration, and development extensions."
+  },
+  {
+    "id": "vite",
+    "name": "Vite",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg",
+    "badge": "Fast",
+    "category": "Tools",
+    "level": "Beginner-Friendly",
+    "rating": "4.9",
+    "description": "A modern frontend build tool that provides fast development servers and optimized production builds."
+  },
+  {
+    "id": "npm",
+    "name": "npm",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
+    "badge": "Essential",
+    "category": "Tools",
+    "level": "Beginner-Friendly",
+    "rating": "4.8",
+    "description": "The default package manager for Node.js used to install, manage, and publish JavaScript packages."
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+    "badge": "Design",
+    "category": "Tools",
+    "level": "Beginner-Friendly",
+    "rating": "4.8",
+    "description": "A collaborative design and prototyping platform widely used for creating user interfaces and design systems."
+  },
+  {
+    "id": "postman",
+    "name": "Postman",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
+    "badge": "API Tool",
+    "category": "Tools",
+    "level": "Beginner-Friendly",
+    "rating": "4.8",
+    "description": "A platform for developing, testing, documenting, and monitoring APIs."
+  },
+  {
+    "id": "eslint",
+    "name": "ESLint",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg",
+    "badge": "Code Quality",
+    "category": "Tools",
+    "level": "Intermediate",
+    "rating": "4.7",
+    "description": "A static code analysis tool that identifies problematic patterns and helps maintain consistent JavaScript and TypeScript code."
+  },
+  {
+    "id": "webpack",
+    "name": "Webpack",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
+    "badge": "Bundler",
+    "category": "Tools",
+    "level": "Advanced",
+    "rating": "4.6",
+    "description": "A module bundler that processes application assets and combines JavaScript modules for production."
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+    "badge": "Top Cloud",
+    "category": "Backend",
+    "level": "Beginner-Friendly",
+    "rating": "4.8",
+    "description": "A Google platform providing authentication, databases, hosting, storage, and other backend services for applications."
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
+    "badge": "Deploy",
+    "category": "DevOps",
+    "level": "Beginner-Friendly",
+    "rating": "4.8",
+    "description": "A cloud platform optimized for deploying frontend frameworks and modern full-stack web applications."
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+    "badge": "Essential",
+    "category": "DevOps",
+    "level": "Intermediate",
+    "rating": "4.9",
+    "description": "An open-source operating system widely used for servers, cloud infrastructure, development environments, and DevOps."
+  },
+  {
+    "id": "nginx",
+    "name": "Nginx",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg",
+    "badge": "Server",
+    "category": "DevOps",
+    "level": "Intermediate",
+    "rating": "4.7",
+    "description": "A high-performance web server and reverse proxy commonly used for serving applications and managing network traffic."
+  },
+  {
+    "id": "redux",
+    "name": "Redux",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+    "badge": "State",
+    "category": "Frontend",
+    "level": "Intermediate",
+    "rating": "4.7",
+    "description": "A predictable state management library commonly used with React applications that need centralized application state."
+  }
+]
