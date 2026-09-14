@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-white">
       <nav className="mx-auto px-4 py-4">
-        <div className="flex items-center justify-between md:hidden">
+        <div className="flex items-center justify-between lg:hidden">
           <button
             className="text-xl text-[#475569]"
             aria-label="Open menu">
@@ -27,7 +27,7 @@ function Navbar() {
             </button>
           </div>
         </div>
-        <div className="hidden items-center justify-between md:flex">
+        <div className="hidden items-center justify-between lg:flex">
           <div className="cursor-pointer">
             <img src={Logo} alt="Dev Stack" />
           </div>
